@@ -7,4 +7,16 @@ public class Client {
         this.name = name;
         this.stylistId = stylistId;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public int getStylistId() {
+        return stylistId;
+    }
 }
