@@ -1,3 +1,33 @@
+ <h3>Add a Client</h3>
+  <form class="form-control cover" action="/stylists/stylistid" method="post">
+<div class="clientadd">
+
+        <div >
+          <label for="name">Clients Name</label>
+          <input type="text" name="name" class="form-control">
+        </div>
+
+        <div >
+          <label for="stylistid">Chose Clients stylist</label><br><br>
+          <select id='stylistid' name='stylistid' type='text'>
+              #foreach($stylist in $stylists)
+                <option value="$stylist.getId()">$stylist.getName()</option>
+              #end
+            </select>
+        </div>
+
+
+        <br><button type="submit" class="btn btn-success" >Add Client</button>
+
+
+    </div>
+  </form>
+
+</div>
+
+</div>
+
+
 <h1 style="text-align:center">Client $client.getName()</h1>
 <div class="row">
   <div class="col-md-6 offset ">
