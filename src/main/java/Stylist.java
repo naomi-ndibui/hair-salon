@@ -1,10 +1,16 @@
 public class Stylist {
     private String name;
-    private String image;
     private int id;
 
-    public Stylist (String name,String image ){
+    public Stylist (String name ){
         this.name =name;
-        this.image = image;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getId() {
+        return id;
     }
 }
