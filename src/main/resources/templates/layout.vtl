@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hair Salon</title>
+    <title>Beauty Hair Salon</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
     <link rel='stylesheet' href='/app.css'>
   </head>
   <body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/stylists">Stylists</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/clients">Clients</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
     <div class="container">
       #parse( $template )
     </div>
