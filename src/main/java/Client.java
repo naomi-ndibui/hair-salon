@@ -33,7 +33,15 @@ public class Client {
             return con.createQuery(sql).executeAndFetch(Client.class);
         }
     }
-
+    public void save() {
+        try(Connection con = DB.sql2o.open()) {
+            String sql = "INSERT INTO clients(name) VALUES (:name)";
+            this.id = (int) con.createQuery(sql, true)
+                    .addParameter("name", this.name)
+                    .executeUpdate()
+                    .getKey();
+        }
+    }
 @Override
     public boolean equals(Object otherClient) {
         if (!(otherClient instanceof Client)) {
@@ -45,15 +53,7 @@ public class Client {
                     this.getStylistId() == newClient.getStylistId();
         }
     }
-    public void save() {
-        try(Connection con = DB.sql2o.open()) {
-            String sql = "INSERT INTO clients(name) VALUES (:name)";
-            this.id = (int) con.createQuery(sql, true)
-                    .addParameter("name", this.name)
-                    .executeUpdate()
-                    .getKey();
-        }
-    }
+
     public static Client find(int id) {
         try(Connection con = DB.sql2o.open()) {
             String sql = "SELECT * FROM clients where id=:id";
