@@ -41,4 +41,22 @@ public class Client {
                     this.getStylistId() == newClient.getStylistId();
         }
     }
+    public static Client find(int id) {
+        try(Connection con = DB.sql2o.open()) {
+            String sql = "SELECT * FROM clients where id=:id";
+            Client client = con.createQuery(sql)
+                    .addParameter("id", id)
+                    .executeAndFetchFirst(Client.class);
+            return client;
+        }
+    }
+//    public void save() {
+//        try(Connection con = DB.sql2o.open()) {
+//            String sql = "INSERT INTO tasks(description) VALUES (:description)";
+//            this.id = (int) con.createQuery(sql, true)
+//                    .addParameter("description", this.description)
+//                    .executeUpdate()
+//                    .getKey();
+//        }
+//    }
 }
