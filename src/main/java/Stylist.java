@@ -37,7 +37,17 @@ public class Stylist {
         }else{
             Stylist newStylist =(Stylist) otherStylist;
             return this.getName().equals(newStylist.getName()) &&
+                    this.getPhone() == newStylist.getPhone() &&
                     this.getId() == newStylist.getId();
+        }
+    }
+    public static Stylist find(int id){
+        try(Connection con = DB.sql2o.open()) {
+            String sql = "SELECT * FROM stylists where id=:id";
+            Stylist stylist = con.createQuery(sql)
+                    .addParameter("id", id)
+                    .executeAndFetchFirst(Stylist.class);
+            return stylist;
         }
     }
 }
