@@ -1,0 +1,23 @@
+<div class="stylist-content container">
+<h1 class="stylist-heading"> STYLISTS</h1>
+<table class="table table-secondary">
+<t head class="t head-secondary">
+<tr>
+<th scope="col">Stylist Name</th>
+<th scope="col">Phone No</th>
+</tr>
+</t head>
+<t body>
+#foreach ($client in $clients)
+<tr>
+<td>$stylist.getName()</td>
+<td>$stylist.getPhone()</td>
+<td>
+<a href="/stylist/$stylist.getid()" class="btn btn-primary btn-sm">View</a>
+</td>
+</tr>
+#end
+</t body>
+</table>
+<a class="btn btn-outline-light nav-item" href="/stylist/new"> NEW STYLIST </a>
+</div>

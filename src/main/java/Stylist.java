@@ -18,10 +18,12 @@ public class Stylist {
     }
 
     public int getPhone() {
+
         return phone;
     }
 
     public int getId() {
+
         return id;
     }
 
@@ -48,9 +50,10 @@ public class Stylist {
             return false;
         } else {
             Stylist newStylist = (Stylist) otherStylist;
-            return this.getName().equals(newStylist.getName()) &&
-                    this.getPhone() == newStylist.getPhone() &&
-                    this.getId() == newStylist.getId();
+//            return this.getName().equals(newStylist.getName()) &&
+//                    this.getPhone() == newStylist.getPhone() &&
+//                    this.getId() == newStylist.getId();
+            return this.getId() == newStylist.getId();
         }
     }
 
@@ -66,7 +69,7 @@ public class Stylist {
 
     public List<Client> getClients() {
         try (Connection con = DB.sql2o.open()) {
-            String sql = "SELECT * FROM clients where stylistid=:id";
+            String sql = "SELECT * FROM clients where stylistsid=:id";
             return con.createQuery(sql)
                     .addParameter("id", this.id)
                     .executeAndFetch(Client.class);
@@ -85,9 +88,8 @@ public class Stylist {
 
     public void delete() {
         try (Connection con = DB.sql2o.open()) {
-            String sql = "DELETE stylists SET name = :name WHERE id = :id";
+            String sql = "DELETE FROM stylists WHERE id = :id";
             con.createQuery(sql)
-                    .addParameter("name" , name)
                     .addParameter("id" , id)
                     .executeUpdate();
         }

@@ -1,0 +1,45 @@
+ <h3>Add a Client</h3>
+<div class="row">
+ <div class = "card">
+  <div class="col-md-6">
+    <form class="form-control cover" action="/stylists/stylistid" method="post">
+       <div class="clientadd">
+          <label for="name">Clients Name</label>
+          <input type="text" name="name" class="form-control">
+
+          <label for="stylistid">Chose Clients stylist</label><br><br>
+          <select id='stylistid' name='stylistid' type='text'>
+              #foreach($client in $clients)
+                <option value="$client.getId()">$client.getName()</option>
+              #end
+            </select>
+             <div>
+         <br><button type="submit" class="btn btn-success" >Add Client</button>
+             </div>
+        </div>
+     </form>
+  </div>
+ </div>
+
+
+<div class = "card">
+  <div class="col-md-6">
+    <h1 style="text-align:center">Client $client.getName()</h1>
+     <div class="col-md-6 offset ">
+        <form class="form-control style" action="/stylists/$client.getId()/client/$client.getId()" method="post">
+          <label for="Name">Name</label>
+          <input type="text" name="name" class="form-control"><br>
+              <div>
+          <br><button type="submit" class="btn btn-info">Update Client</button>
+              </div>
+        </form><br><br>
+        <form action="/stylists/$client.getId()/clients/$client.getId()/delete" method="post">
+            <div>
+          <button type="submit" class="btn btn-danger btn-lg" id="delete-client">Delete Client</button>
+             </div>
+        </form>
+    </div>
+  </div>
+</div>
+</div>
+</div>

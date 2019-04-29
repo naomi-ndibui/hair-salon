@@ -2,16 +2,151 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03e996d1-3b95-4937-9047-d21c8299a8c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/License.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/Useful_Resources.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/addons/datatables-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/addons/datatables-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/addons/datatables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/addons/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/addons/directives.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/addons/directives.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/mdb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/mdb.lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/mdb.lite.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/mdb.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/modules/animations-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/modules/animations-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/font/roboto/Roboto-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/lightbox/default-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/lightbox/default-skin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/lightbox/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/overlays/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/overlays/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/overlays/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/overlays/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/overlays/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/overlays/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/overlays/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/overlays/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/overlays/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/svg/arrow_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/img/svg/arrow_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/addons/datatables-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/addons/datatables-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/addons/datatables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/addons/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/addons/rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/mdb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/mdb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/modules/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/modules/default-file-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/modules/enhanced-modals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/modules/forms-free.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/modules/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/modules/scrolling-navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/modules/velocity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/modules/velocity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/modules/waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/modules/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/_custom-skin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/_custom-styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/_custom-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/addons/_datatables-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/addons/_datatables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/addons/_directives.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/core/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/core/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/core/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/core/_masks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/core/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/core/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/core/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/core/_waves.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/core/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/core/bootstrap/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/core/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_animations-basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_carousels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_depreciated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_msc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_steppers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/_treeview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/modules/animations-extended/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/free/modules/animations-extended/animations-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/mdb.lite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/MDN/scss/mdb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/image/image 1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/image/image 2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/image/image 3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/image/image 4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/image/image 5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/image/image 6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/mdb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/mdb.lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/mdb.lite.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/mdb.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Stylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/client.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/client.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/clients.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/clients.vtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/stylist.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/stylist.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/stylists.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StylistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StylistTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,6 +156,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="72" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -32,13 +170,36 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hair-salon" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hair-salon" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="114" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="360">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,50 +210,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="180">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/stylists.vtl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Stylist.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout.vtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="163">
+              <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -100,26 +228,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/clients.vtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="75">
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/stylist.vtl">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+            <state relative-caret-position="45">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/client.vtl">
+        <entry file="file://$PROJECT_DIR$/procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state>
+              <caret column="46" selection-start-column="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -133,6 +270,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Mow the lawn</find>
+      <find>Task</find>
+      <find>clients</find>
+      <find>Client</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Naomi</replace>
+      <replace>Client</replace>
+      <replace>client</replace>
+      <replace>Stylist</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -140,16 +291,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/client.vtl" />
         <option value="$PROJECT_DIR$/src/main/java/DB.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/clients.vtl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/stylist.vtl" />
-        <option value="$PROJECT_DIR$/src/main/java/Client.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/app.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.vtl" />
-        <option value="$PROJECT_DIR$/src/main/java/Stylist.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/stylists.vtl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/stylist.vtl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/client.vtl" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/clients.vtl" />
+        <option value="$PROJECT_DIR$/src/main/java/Stylist.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StylistTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Client.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ClientTest.java" />
+        <option value="$PROJECT_DIR$/procfile" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -159,10 +315,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="597" />
-    <option name="width" value="684" />
-    <option name="height" value="728" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="639" />
+    <option name="width" value="710" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -171,6 +327,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,71 +335,23 @@
               <item name="hair-salon" type="b2602c69:ProjectViewProjectNode" />
               <item name="hair-salon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="hair-salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hair-salon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hair-salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hair-salon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="hair-salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hair-salon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hair-salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hair-salon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hair-salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hair-salon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hair-salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hair-salon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hair-salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hair-salon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="hair-salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hair-salon" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/core/CeaserCipher" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/public" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/public" />
+      <recent name="$PROJECT_DIR$/src/main/resources/public/MDB" />
+      <recent name="$PROJECT_DIR$/src/main/resources/public/image" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,6 +372,46 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ClientTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ClientTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StylistTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;StylistTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="hair-salon [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -285,6 +434,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StylistTest" />
+        <item itemvalue="Gradle.ClientTest" />
         <item itemvalue="Gradle.hair-salon [dependencies]" />
         <item itemvalue="Application.App" />
       </list>
@@ -303,19 +454,52 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="StylistTest - 2019.04.29 at 11h 46m 28s.xml">
+      <configuration name="StylistTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.04.29 at 11h 47m 55s.xml">
+      <configuration name="ClientTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.04.29 at 11h 58m 24s.xml">
+      <configuration name="ClientTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest - 2019.04.29 at 12h 03m 19s.xml">
+      <configuration name="StylistTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.04.29 at 12h 04m 07s.xml">
+      <configuration name="ClientTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.04.29 at 12h 06m 30s.xml">
+      <configuration name="ClientTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.04.29 at 12h 18m 45s.xml">
+      <configuration name="ClientTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.04.29 at 12h 19m 40s.xml">
+      <configuration name="ClientTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.04.29 at 12h 20m 49s.xml">
+      <configuration name="ClientTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StylistTest - 2019.04.29 at 12h 21m 10s.xml">
+      <configuration name="StylistTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1366" height="728" extended-state="6" />
+    <frame x="639" y="0" width="710" height="714" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19393939" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.33885542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5021645" side_tool="true" weight="0.2090909" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32781458" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31864408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -323,48 +507,57 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294702" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.3289256" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info active="true" anchor="bottom" id="Build" order="10" visible="true" weight="0.32881355" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.23030303" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven" order="8" weight="0.32954547" />
+      <window_info anchor="right" id="Gradle" order="9" weight="0.32954547" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18030304" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294702" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.3289256" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hair_salon$StylistTest.ic" NAME="StylistTest Coverage Results" MODIFIED="1556529668323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/hair_salon$ClientTest.ic" NAME="ClientTest Coverage Results" MODIFIED="1556529647280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/MDB/MDB-Free_4.7.7/js/addons/rating.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/MDN/js/addons/rating.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/stylists.vtl" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/client.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-12/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1127" selection-start-line="1127" selection-end-line="1127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/stylist.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -374,108 +567,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StylistTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/stylist.vtl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/stylists.vtl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout.vtl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Stylist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="1590">
+          <caret line="106" column="64" selection-start-line="106" selection-start-column="64" selection-end-line="106" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="915">
+          <caret line="64" column="73" selection-start-line="64" selection-start-column="73" selection-end-line="64" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/clients.vtl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Stylist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="74" selection-start-line="80" selection-start-column="74" selection-end-line="80" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/client.vtl">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="1560">
+          <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="360">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/clients.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>

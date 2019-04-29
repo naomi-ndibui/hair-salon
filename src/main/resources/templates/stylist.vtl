@@ -1,33 +1,8 @@
-<div class="head">
-  <h1>Hair salon </h1>
-</div>
-<div class="row">
-
-<div class="col-md-5 move">
-  <h3>Add a Stylist</h3>
-  <form class="form-control cover" action="/" method="post">
-    <div class="stylistadd">
-
- <div>
-       <label for="name">Stylist Name</label>
-       <input type="text" name="name" class="form-control">
-  </div>
-  <div>
-       <label for="phone">Phone No.</label>
-       <input type="text" name="name" class="form-control">
-  </div>
-<br><button type="submit" class="btn btn-success" >Add Stylist</button>
-    </div>
-  </form>
-</div>
-
-
 <h1 style="text-align:center">Stylist $stylist.getName()</h1>
-<h1 style="text-align:center">Stylist $stylist.getPhone()</h1>
 <div class="row">
   <div class="col-md-6 col-md-offset-1">
 
-    <form  class="form-control style" action="/stylists/$stylist.getId()" method="post">
+    <form  class="form-control style" action="/clients" method="post">
       <label for="Name"> <b>Update Stlyist Name</b></label>
       <input type="text" name="name" value="" class="form-control"><br>
       <button type="submit" class="btn btn-info">Update Stylist</button>
@@ -47,7 +22,7 @@
     </div>
     <div class="row clients">
       #if($stylist.getClients().size()==0)
-        <h1 class="nostylist" >Clients will Apear Here</h1>
+        <h1 class="nostylist" >Clients</h1>
         #else
         #foreach($client in $stylist.getClients())
         <ol>

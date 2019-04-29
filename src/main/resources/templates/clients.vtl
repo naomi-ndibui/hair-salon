@@ -1,24 +1,17 @@
-<div class="stylist-content container">
-<h1 class="stylist-heading"> CLIENTS</h1>
-<table class="table table-secondary">
-<t head class="t head-secondary">
-<tr>
-<th scope="col">Name</th>
-<th scope="col">Stylist Id</th>
-</tr>
-</t head>
-<t body>
-#foreach ($client in $clients)
-<tr>
-<td>$client.getname()</td>
-<td>$client.getStylistid()</td>
-<td>
-<a href="/client/$client.getid()" class="btn btn-primary btn-sm">View</a>
-</td>
-</tr>
-#end
-</t body>
-</table>
-<a class="btn btn-outline-light nav-item" href="/clients/new"> NEW CLIENT </a>
+<h1 style="text-align:center">Client $client.getName()</h1>
+<div class="row">
+  <div class="col-md-6 offset ">
+    <form class="form-group style" action="/stylists/$client.getId()/clients/$client.getId()" method="post">
+      <label for="Name"></label>
+      <input type="text" name="name" value="" class="form-group">
+      <br><button type="submit" class="btn btn-info">Update Client</button>
+    </form>
+  </div>
+
+</div>
+<div class="row delete">
+  <form action="/stylists/$client.getId()/clients/$client.getId()/delete" method="post">
+    <button type="submit" class="btn btn-danger btn-lg" id="delete-client">Delete Client</button>
+  </form>
 </div>
 
